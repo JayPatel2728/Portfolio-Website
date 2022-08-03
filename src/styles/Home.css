@@ -1,0 +1,64 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+.about {
+  width: 100%;
+  height: calc(85.4vh - 70px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+}
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 65px;
+  color: #e9d35b;
+  height: 50px;
+}
+.about .prompt {
+  max-width: 50%;
+  font-size: 25px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: white;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-button{
+    min-width: 250px;
+    max-width: 40%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 50px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 25px;
+    min-width: 80%;
+  }
+  .social{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+  .social-button{
+    max-width: 100%;
+  }
+}

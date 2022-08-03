@@ -1,0 +1,40 @@
+.Contact {
+  text-align: left;
+  max-width: 1000px;
+  width: 80%;
+  margin: 20px auto;
+  background-color:white;
+  color:black;
+}
+
+.name-contact{
+  width: 100%;
+  border: 1px solid black;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+}
+.name-contact > input,textarea{
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+  background-color: #000;
+  height: 40px;
+}
+.name-contact > textarea{
+  height: 100px;
+}
+.align{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-send:hover{
+  color: aquamarine;
+  background-color: white;
+}
+.button-send {
+  height: 50px;
+  transition-duration: 0.4s;
+  width: 100%;
+}
