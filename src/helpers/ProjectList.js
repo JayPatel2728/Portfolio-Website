@@ -1,3 +1,4 @@
+import React from 'react'
 import Proj1 from '../assets/quiz-temp.PNG'
 import Proj2 from '../assets/ecommerce-temp.PNG'
 import Proj3 from '../assets/weather-temp.PNG'
