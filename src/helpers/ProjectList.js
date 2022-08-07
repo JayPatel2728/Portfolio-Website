@@ -10,7 +10,7 @@ const ProjectList = [
     {
         name: "Quiz App",
         Img: Proj1,
-        Link: "https://github.com/JayPatel2728/Quiz-App",
+        Link: "https://quizz-app-jp.netlify.app",
         Icons: [
             <DiReact style={{color:"#61DBFB"}}/>,
             <DiHtml5 style={{color:"#e54c21"}}/>,
@@ -22,7 +22,7 @@ const ProjectList = [
     {
         name: "Movie Search App",
         Img: Proj4,
-        Link: "https://github.com/JayPatel2728/Basic-Movie-App",
+        Link: "https://movieland-search-app.netlify.app",
         Icons: [
             <DiReact style={{color:"#61DBFB"}}/>,
             <DiHtml5 style={{color:"#e54c21"}}/>,
@@ -34,7 +34,7 @@ const ProjectList = [
     {
         name: "Weather App",
         Img: Proj3,
-        Link: "https://github.com/JayPatel2728/Weather-app-",
+        Link: "https://weather-app-jp.netlify.app",
         Icons: [
             <DiJsBadge style={{color:"#f7e018"}}/>,
             <DiHtml5 style={{color:"#e54c21"}}/>,
