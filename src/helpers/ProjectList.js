@@ -4,9 +4,35 @@ import Proj2 from '../assets/ecommerce-temp.PNG'
 import Proj3 from '../assets/weather-temp.PNG'
 import Proj4 from '../assets/movie-temp.PNG'
 import Proj5 from '../assets/extension-temp.PNG'
-import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiJava, DiVisualstudio } from "react-icons/di"
+import Proj6 from '../assets/blogger.PNG'
+import Proj7 from '../assets/crypto.PNG'
+import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiJava, DiVisualstudio, DiMongodb, DiNodejs } from "react-icons/di"
 
 const ProjectList = [
+    {
+        name: "Crypto App",
+        Img: Proj7,
+        Link: "https://crypto-coinmarket.netlify.app",
+        Icons: [
+            <DiReact style={{color:"#61DBFB"}}/>,
+            <DiHtml5 style={{color:"#e54c21"}}/>,
+            <DiCss3 style={{color:"#264de4"}}/>,
+            <DiVisualstudio style={{color:"#37a9f2"}}/>
+        ],
+        description: "The is my take on the coin maketcap clone, crypto data was obtained using the coin gecko API"
+    },
+    {
+        name: "Blogger.io",
+        Img: Proj6,
+        Link: "https://github.com/JayPatel2728/Blogger.io",
+        Icons: [
+            <DiNodejs style={{color:"#8bc500"}}/>,
+            <DiMongodb style={{color:"#57aa50"}}/>,
+            <DiCss3 style={{color:"#264de4"}}/>,
+            <DiVisualstudio style={{color:"#37a9f2"}}/>
+        ],
+        description: "A simple Node Blogs application using mongo db atlas as the cloud database, the user would be allowed to create, read, update and delete any blogs"
+    },
     {
         name: "Quiz App",
         Img: Proj1,
