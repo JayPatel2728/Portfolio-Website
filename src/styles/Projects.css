@@ -102,3 +102,9 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .projectItem{
+    width: 340px;
+  }
+}
+
