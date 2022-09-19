@@ -6,9 +6,24 @@ import Proj4 from '../assets/movie-temp.PNG'
 import Proj5 from '../assets/extension-temp.PNG'
 import Proj6 from '../assets/blogger.PNG'
 import Proj7 from '../assets/crypto.PNG'
-import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiJava, DiVisualstudio, DiMongodb, DiNodejs } from "react-icons/di"
+import Proj8 from '../assets/zipper.PNG'
+import { DiReact, DiHtml5, DiCss3, DiJsBadge, DiJava, DiVisualstudio, DiMongodb, DiNodejs, DiBootstrap } from "react-icons/di"
+import { SiExpress } from "react-icons/si"
 
 const ProjectList = [
+    {
+        name: "Notes App",
+        Img: Proj8,
+        Link: "https://zipper-mern.herokuapp.com/",
+        Icons: [
+            <DiReact style={{color:"#61DBFB"}}/>,
+            <DiBootstrap style={{color:'purple'}}/>,
+            <DiNodejs style={{color:"#8bc500"}}/>,
+            <SiExpress style={{color:'white'}}/>,
+            <DiMongodb style={{color:"#57aa50"}}/>
+        ],
+        description: "This is my first fullstack application, I have also used redux for state managenment and bootstrap for UI. Full user authentication was achieved using JWT and bcrypt to encrypt the passwords."
+    },
     {
         name: "Crypto App",
         Img: Proj7,
